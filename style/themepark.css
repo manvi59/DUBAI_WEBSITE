@@ -1,0 +1,225 @@
+body{
+
+
+margin:0px;
+padding:0px;
+background-color:linen;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.th1{
+
+     	
+    background-image:url("../img/fp3.jpg");
+    background-size:100% 100%;
+    height:400px;
+    
+
+     
+    animation : slide1 10s infinite;
+    background-color:rgb(248, 231, 215);
+    }
+    
+    
+    
+       .card{
+
+
+   
+        background-color:#EBF4FA;
+        
+        
+        color:#000080;
+
+        border:10px solid  #B8860B;
+        
+
+
+       }
+
+       /* .card
+{
+    padding-bottom:100px;
+} */
+
+       #btn{
+
+        background-color:#5f4504 ;
+        border:none;
+        height:60px;
+        width:110px;
+        color:white;
+        border-radius:10rem ;
+        
+         
+
+       }
+       
+           
+         
+          .card  {
+
+            height:650px;
+            /* width:400px; */
+            box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+            transition:0.5s ease;
+            cursor:pointer;
+         }
+         
+         
+         
+         
+        .card:hover{
+            transform:scale(1.2);
+            box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+        }
+    
+        
+        
+        
+        
+        
+        
+    
+    
+    
+    @keyframes slide1{
+    
+    0%{
+        
+    background-image:url("../img/fp1.jpg"); }
+    
+    
+    20%{
+    background-image:url("../img/fp2.jpg"); }
+    
+    
+    45%{
+    background-image:url("../img/fp3.jpg"); }
+    
+    
+    
+    
+    
+    
+    60%{
+    background-image:url("../img/fp4.jpg"); }
+    
+    
+    
+    
+    
+    
+    
+    85%{
+    background-image:url("../img/fp5.jpg"); }
+    
+    
+    
+    
+    
+    
+    95%{
+    background-image:url("../img/fp6.jpg"); }
+    
+    
+    
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .th2{
+
+        
+        background-image:url("../img/m1.jpg");
+        background-size:100% 100%;
+         
+        height:400px;
+        animation : slide2 10s infinite;
+        background-color:#EBF4FA; 
+        }
+        
+        
+         
+            
+            
+            
+            
+            
+            
+            
+            
+        
+           
+        
+        
+        
+        @keyframes slide2{
+        
+        0%{
+           
+        background-image:url("../img/m1.jpg"); }
+        
+        
+        20%{
+        background-image:url("../img/m2.jpg"); }
+        
+        
+        45%{
+        background-image:url("../img/m3.jpg"); }
+        
+        
+        
+        
+        
+        
+        60%{
+        background-image:url("../img/m4.jpg"); }
+        
+        
+        
+        
+        
+        
+        
+        85%{
+        background-image:url("../img/m5.jpg"); }
+        
+        
+        
+        
+        
+        
+        95%{
+        background-image:url("../img/m1.jpg"); }
+        
+        
+        
+        
+        }
+        
+        
+        
+       
+        

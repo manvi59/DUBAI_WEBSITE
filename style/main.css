@@ -1,0 +1,151 @@
+body{
+
+/* margin:0px;
+padding:0px; */
+
+background-color:linen;
+position:relative;
+
+
+
+}
+
+#nav{
+
+color:darkblue;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#bgim{
+	
+    width:100%;	
+    height:650px;	
+    background-image:url("../img/a2.jpg");
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+        
+    animation:slide 9s infinite;
+     
+    }
+    
+    @keyframes slide{
+    
+    0%{
+        
+    background-image:url("../img/i2.jpg"); }
+    
+    
+    20%{
+    background-image:url("../img/bk2.jpg"); }
+    
+    
+    45%{
+    background-image:url("../img/d2.jpg"); }
+    
+    
+    
+    
+    
+    
+    60%{
+    background-image:url("../img/bk1.jpg"); }
+    
+    
+    
+    
+    
+    
+    
+    85%{
+    background-image:url("../img/i1.jpeg"); }
+    
+    
+    
+    
+    
+    
+    100%{
+    background-image:url("../img/d6.jpg"); }
+    
+    
+    
+    
+    }
+
+
+
+    #a{
+
+width:700px;
+height:500px;
+float:left;
+background-color:lightblue;
+
+    }
+
+
+    #b{
+height:800px;
+width:600px;
+float:right;
+background-color:lightblue;
+
+    }
+
+
+
+    .buttt{
+	
+        height:45px;
+        width:165px;	
+        text-transform:upper;
+        font-size:20px;	
+        background-color:#000080;;
+        border:none;
+        border-radius:27px;
+        
+        }
+        
+        .but{
+            
+        height:45px;
+        width:130px;	
+        text-transform:upper;
+        font-size:20px;	
+        background-color:#000080;
+        border:none;
+        border-radius:29px;
+        }
+        
+        
+    
+
+        .circ{
+
+            height:6rem;
+            width:6rem;
+            border-radius: 3rem;
+            background-color:chartreuse;
+
+
+
+        }
+
+        .con{
+
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+     

@@ -1,0 +1,3 @@
+alert(`DISCOUNT OFFER
+  AED 50.00`)
+
